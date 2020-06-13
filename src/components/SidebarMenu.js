@@ -46,7 +46,7 @@ const SidebarMenu = (props) => {
         </MenuItem>
       </NavLink>
 
-      <NavLink to="givemefacts" style={{ textDecoration: 'none' }}>
+      <NavLink to="givemefacts?language=de" style={{ textDecoration: 'none' }}>
         <MenuItem button selected={isActive({ pathname }, 'givemefacts?language=de')}>
           <ListItemText primary="German" />
         </MenuItem>
