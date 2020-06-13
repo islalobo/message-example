@@ -16,9 +16,9 @@ import {
   withStyles,
 } from '@material-ui/core';
 
+import Link from '@material-ui/core/Link';
+import * as PropTypes from 'prop-types';
 import Constants from '../constants';
-import Link from "@material-ui/core/Link";
-import * as PropTypes from "prop-types";
 
 const styles = (theme) => ({
   container: {
